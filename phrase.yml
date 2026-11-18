@@ -1,0 +1,12 @@
+phrase:
+  project_id: 4fb2aec6a8c039dab2bacc51a8266f9f
+  file_format: simple_json
+  push:
+    sources:
+      - file: ./locales/en.json
+        params:
+          locale_id: en
+          update_translations: true
+  pull:
+    targets:
+      - file: ./locales/<locale_name>.json
